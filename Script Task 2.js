@@ -47,7 +47,7 @@ for(let s of students){
     let grade;
 
     if(s.mark >= 90) grade = "A";
-    else if(s.mark >= 75) grade = "B";
+    else if(s.mark >= 75) grade = "B";  
     else if(s.mark >= 50) grade = "C";
     else grade = "Fail";
 
